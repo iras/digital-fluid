@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            CLASS = DFImageView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {iterField = id; timeField = id; uiterField = id; viterField = id; }; 
+            SUPERCLASS = NSImageView; 
+        }, 
+        {
+            ACTIONS = {
+                Alt = id; 
+                DisplayF = id; 
+                DisplayP = id; 
+                Go = id; 
+                Reset = id; 
+                Step = id; 
+                Test = id; 
+            }; 
+            CLASS = DFWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {timeField = id; view = DFImageView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }
+    ); 
+    IBVersion = 1; 
+}
